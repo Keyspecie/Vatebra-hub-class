@@ -37,7 +37,7 @@ body,html {
 }
 
 section.hero-image {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./Images/unsplash2.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./Img/salmon.jpeg);
     /* background-image: url(./Images/unsplash2.jpg); covers the whole screen */
     /* opacity: .7; */
     height: 100%;
@@ -76,9 +76,9 @@ div.hero-text {
 }
 
 .hero-button {
-    background-color: yellow;
+    background-color: blanchedalmond;
     color: black;
-    border-radius: 10px;
+    border-radius: 26px;
     padding: 14px 16px;
     margin: 16px;
     border-color: whitesmoke;
@@ -86,7 +86,7 @@ div.hero-text {
 }
 
 .hero-button:hover {
-    background-color: violet;
+    background-color: green;
     color: white;
 }
 
@@ -100,7 +100,7 @@ div.hero-text {
     margin: auto;
 }
 
-.explanation {
+.about-business {
     text-align: left;
 }
 
@@ -126,7 +126,7 @@ div.hero-text {
 }
 
 footer {
-    background-color: pink;
+    background-color: red;
     text-align: center;
     margin-top: 0%;
     padding: 2rem;

@@ -6,52 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gina's restaurant</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   </head>
   <body>
+    <!-- Navigation bar -->
     <header>
         <div class="topnav">
             <nav>
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Menu</a>
-                <a href="#">Prices</a>
-                <a href="#">Conact Us</a>
+                <a href="index.html">Home</a>
+                <a href="AboutUs.html">About Us</a>
+                <a href="menu.html">Menu</a>
+                <a href="prices.html">Prices</a>
+                <a href="contactus.html">Conact Us</a>
             </nav>
         </div>
     </header>
 
-    <!-- description bar -->
-    <section>
-        <h1>Welcome to Gina's food arcade</h1>
-        <button>What would you like</button>
-        <h2>Gina's restaurant</h2>
-        <p>Home of delicious meals</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ullam
-          velit beatae laborum consequuntur, eius, obcaecati earum cupiditate
-          veritatis vitae incidunt, architecto quidem! Accusamus odit provident
-          beatae sed, repellat quos. Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Deleniti tenetur minus, voluptatem est unde magnam eum
-          nesciunt esse, sapiente expedita, consectetur exercitationem dolorum
-          eveniet totam numquam possimus sunt quaerat id
-        </p>
-    </section>
-    <section>
-        <h2>Check Our Menu</h2>
-        <!-- hero image -->
-        <h2>Jollof rice</h2>
-        <img src="./Img/jollof rice.jpeg" alt="Jollof rice" width="400">
-        <h2>Amala and Ewedu</h2>
-        <img src="./Img/Amala.jpeg" alt="Amala" width="400">
-        <h2>Yam Porridge</h2>
-        <img src="./Img/yam_porridge.jpeg" alt="porridge" width="400">
+<!-- Note: background html image called in css -->
+
+    <section class="hero-image">
+      <div class="hero-text">
+        <h1>Welcome to <span>Gina's food arcade</span></h1>
+        <a href="menu.html"><button class="hero-button">What would you like</button></a> 
+      </div>
     </section>
 
+    <!-- description bar  -->
+    <section class="description">
+      <h2>Gina's restaurant</h2>
+      <p><i>Home of delicious meals</i></p>
+      <p class="about-business">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ullam
+        velit beatae laborum consequuntur, eius, obcaecati earum cupiditate
+        veritatis vitae incidunt, architecto quidem! Accusamus odit provident
+        beatae sed, repellat quos. Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Deleniti tenetur minus, voluptatem est unde magnam eum
+        nesciunt esse, sapiente expedita, consectetur exercitationem dolorum
+        eveniet totam numquam possimus sunt quaerat id
+      </p>
+    </section>
+
+    <section class="food">
+        <h2>Check Our Menu</h2>
+        <div class="row">
+          <div class="column">
+            <h2>Jollof rice</h2>
+            <img src="./Img/jollof_rice.jpg" width="400">
+          </div>
+          <div class="column">
+            <h2>Amala and Ewedu</h2>
+            <img src="./Img/amala.jpg" alt="Amala" width="400">
+          </div>
+          <div class="column">
+            <h2>Yam Porridge</h2>
+            <img src="./Img/yam_porridge.jpg" alt="porridge" width="620" height="413">
+          </div>
+        </div>
+    </section><br>
     <footer>
-        <a href="#">Facebook</a>
-        <a href="#">twitter</a>
-        <a href="#">Instagram</a>
-        <p> &copy; 2023 Gina's restaurant. Made with love by Gina</p>
+        <a href=""><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+        <a href=""><i class="fa-brands fa-square-twitter fa-2x"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
+        <p> &copy; 2023 Gina's restaurant. Made with love by <i>Gina</i></p>
     </footer>
 
   </body>
